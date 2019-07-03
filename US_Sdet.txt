@@ -1,0 +1,138 @@
+
+
+@Test
+
+TestRunner:testrunners are used to run a particular testcase.
+It will also display the errors and success in the console.
+
+testrunners can have main method
+testcases shldnt use main method.
+we can test a testcase using testrunner
+------------------
+Exception testing using Junit:
+----------------------
+ArthimeticException
+
+1)write a simple junit testrunner to test the below logic.
+
+swaping of two nos:
+a=3 b=56
+
+After swapping it shld be a=56 b=3
+
+int a=3;
+int b=56;
+a=a+b-(b=a);
+Sop(a+":"+b);
+
+
+BDD:
+====
+behaviour driven development.
+
+No 2 persons can see same object in same way.
+
+reason? perception/interpretation
+
+communication gap between customer and developers
+
+customers will share the requirements with Business analyst or project owners.architects.
+
+1)
+customer is from japan(japanise lang)
+developer is from srilanka(english )
+
+2)
+customer is from US(english)
+developer is from India(english )
+
+what is the problem?
+
+1)language is the problem 
+2)accent is the problem
+
+ communication GAP.
+ because of this type of problems,we shld not loose business.
+ 
+ fix?  BDD will solve the problem.
+ 
+ to resolve the same we wll use cucumber.
+ 
+ cucumber  uses Gherkin language as a communication language
+ Gherkin is similar to english but with protocols.
+ 
+ BDD--->Cucumber--->Gherkin
+  
+ to work on cucumber we need to enable below plugin.
+ 
+ Steps to check:
+ 
+ 1)Create a maven quickstart project.
+ 2)right click on the project,move to others and search for Cucumber
+ 
+Exercise: prepare manual testing basics based on the pdf provided.
+if we want to work on maven,always we need to point out to JDK.
+
+1)create a maven java project
+2)create a features folder under java project
+3)create a feature file.
+
+Feature file: it is group of scenario's.
+Scenario: it is group of steps
+
+fb: login screen 2 scenarios
+1)positive sc  if username and password are valid
+2)negitive sc if username and password are invalid
+3)negitive sc if we forgot username and provided password
+
+.feature is the extension.
+
+to write a scenario,we need to learn gherkin language.
+
+Given ----always indicates prerequisite for the test steps
+When---always indicates condition which shld match
+Then---what shld happen iif the condition mentioned in when is satisfied
+
+A feature file is a combination of multiple scenarios
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
